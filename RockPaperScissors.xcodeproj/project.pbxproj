@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9343F5881728A08D009085AA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9343F5871728A08D009085AA /* UIKit.framework */; };
+		9343F58A1728A08D009085AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9343F5891728A08D009085AA /* Foundation.framework */; };
+		9343F58C1728A08D009085AA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9343F58B1728A08D009085AA /* CoreGraphics.framework */; };
+		9343F5921728A08D009085AA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9343F5901728A08D009085AA /* InfoPlist.strings */; };
+		9343F5941728A08D009085AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9343F5931728A08D009085AA /* main.m */; };
+		9343F5981728A08D009085AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9343F5971728A08D009085AA /* AppDelegate.m */; };
+		9343F59A1728A08D009085AA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9343F5991728A08D009085AA /* Default.png */; };
+		9343F59C1728A08D009085AA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9343F59B1728A08D009085AA /* Default@2x.png */; };
+		9343F59E1728A08D009085AA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9343F59D1728A08D009085AA /* Default-568h@2x.png */; };
+		9343F5A11728A08D009085AA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9343F5A01728A08D009085AA /* ViewController.m */; };
+		9343F5A41728A08D009085AA /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9343F5A21728A08D009085AA /* ViewController.xib */; };
+		E4D552AA17E8DFD20022F11B /* JudgeClass.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D552A917E8DFD20022F11B /* JudgeClass.m */; };
+		E4D552AD17E8EDE20022F11B /* ComputerHandClass.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D552AC17E8EDE20022F11B /* ComputerHandClass.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9343F5841728A08D009085AA /* RockPaperScissors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RockPaperScissors.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9343F5871728A08D009085AA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9343F5891728A08D009085AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9343F58B1728A08D009085AA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9343F58F1728A08D009085AA /* RockPaperScissors-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RockPaperScissors-Info.plist"; sourceTree = "<group>"; };
+		9343F5911728A08D009085AA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9343F5931728A08D009085AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9343F5951728A08D009085AA /* RockPaperScissors-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RockPaperScissors-Prefix.pch"; sourceTree = "<group>"; };
+		9343F5961728A08D009085AA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9343F5971728A08D009085AA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9343F5991728A08D009085AA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		9343F59B1728A08D009085AA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		9343F59D1728A08D009085AA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		9343F59F1728A08D009085AA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9343F5A01728A08D009085AA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9343F5A31728A08D009085AA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		E4D552A817E8DFD20022F11B /* JudgeClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JudgeClass.h; sourceTree = "<group>"; };
+		E4D552A917E8DFD20022F11B /* JudgeClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JudgeClass.m; sourceTree = "<group>"; };
+		E4D552AB17E8EDE20022F11B /* ComputerHandClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComputerHandClass.h; sourceTree = "<group>"; };
+		E4D552AC17E8EDE20022F11B /* ComputerHandClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComputerHandClass.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9343F5811728A08D009085AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9343F5881728A08D009085AA /* UIKit.framework in Frameworks */,
+				9343F58A1728A08D009085AA /* Foundation.framework in Frameworks */,
+				9343F58C1728A08D009085AA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9343F57B1728A08D009085AA = {
+			isa = PBXGroup;
+			children = (
+				9343F58D1728A08D009085AA /* RockPaperScissors */,
+				9343F5861728A08D009085AA /* Frameworks */,
+				9343F5851728A08D009085AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9343F5851728A08D009085AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9343F5841728A08D009085AA /* RockPaperScissors.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9343F5861728A08D009085AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9343F5871728A08D009085AA /* UIKit.framework */,
+				9343F5891728A08D009085AA /* Foundation.framework */,
+				9343F58B1728A08D009085AA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9343F58D1728A08D009085AA /* RockPaperScissors */ = {
+			isa = PBXGroup;
+			children = (
+				9343F5961728A08D009085AA /* AppDelegate.h */,
+				9343F5971728A08D009085AA /* AppDelegate.m */,
+				9343F59F1728A08D009085AA /* ViewController.h */,
+				9343F5A01728A08D009085AA /* ViewController.m */,
+				E4D552A817E8DFD20022F11B /* JudgeClass.h */,
+				E4D552A917E8DFD20022F11B /* JudgeClass.m */,
+				E4D552AB17E8EDE20022F11B /* ComputerHandClass.h */,
+				E4D552AC17E8EDE20022F11B /* ComputerHandClass.m */,
+				9343F5A21728A08D009085AA /* ViewController.xib */,
+				9343F58E1728A08D009085AA /* Supporting Files */,
+			);
+			path = RockPaperScissors;
+			sourceTree = "<group>";
+		};
+		9343F58E1728A08D009085AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9343F58F1728A08D009085AA /* RockPaperScissors-Info.plist */,
+				9343F5901728A08D009085AA /* InfoPlist.strings */,
+				9343F5931728A08D009085AA /* main.m */,
+				9343F5951728A08D009085AA /* RockPaperScissors-Prefix.pch */,
+				9343F5991728A08D009085AA /* Default.png */,
+				9343F59B1728A08D009085AA /* Default@2x.png */,
+				9343F59D1728A08D009085AA /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9343F5831728A08D009085AA /* RockPaperScissors */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9343F5A71728A08D009085AA /* Build configuration list for PBXNativeTarget "RockPaperScissors" */;
+			buildPhases = (
+				9343F5801728A08D009085AA /* Sources */,
+				9343F5811728A08D009085AA /* Frameworks */,
+				9343F5821728A08D009085AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RockPaperScissors;
+			productName = RockPaperScissors;
+			productReference = 9343F5841728A08D009085AA /* RockPaperScissors.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9343F57C1728A08D009085AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = MobileMakers;
+			};
+			buildConfigurationList = 9343F57F1728A08D009085AA /* Build configuration list for PBXProject "RockPaperScissors" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9343F57B1728A08D009085AA;
+			productRefGroup = 9343F5851728A08D009085AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9343F5831728A08D009085AA /* RockPaperScissors */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9343F5821728A08D009085AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9343F5921728A08D009085AA /* InfoPlist.strings in Resources */,
+				9343F59A1728A08D009085AA /* Default.png in Resources */,
+				9343F59C1728A08D009085AA /* Default@2x.png in Resources */,
+				9343F59E1728A08D009085AA /* Default-568h@2x.png in Resources */,
+				9343F5A41728A08D009085AA /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9343F5801728A08D009085AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9343F5941728A08D009085AA /* main.m in Sources */,
+				9343F5981728A08D009085AA /* AppDelegate.m in Sources */,
+				9343F5A11728A08D009085AA /* ViewController.m in Sources */,
+				E4D552AA17E8DFD20022F11B /* JudgeClass.m in Sources */,
+				E4D552AD17E8EDE20022F11B /* ComputerHandClass.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9343F5901728A08D009085AA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9343F5911728A08D009085AA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9343F5A21728A08D009085AA /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9343F5A31728A08D009085AA /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9343F5A51728A08D009085AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9343F5A61728A08D009085AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9343F5A81728A08D009085AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RockPaperScissors/RockPaperScissors-Prefix.pch";
+				INFOPLIST_FILE = "RockPaperScissors/RockPaperScissors-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9343F5A91728A08D009085AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RockPaperScissors/RockPaperScissors-Prefix.pch";
+				INFOPLIST_FILE = "RockPaperScissors/RockPaperScissors-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9343F57F1728A08D009085AA /* Build configuration list for PBXProject "RockPaperScissors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9343F5A51728A08D009085AA /* Debug */,
+				9343F5A61728A08D009085AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9343F5A71728A08D009085AA /* Build configuration list for PBXNativeTarget "RockPaperScissors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9343F5A81728A08D009085AA /* Debug */,
+				9343F5A91728A08D009085AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9343F57C1728A08D009085AA /* Project object */;
+}
